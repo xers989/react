@@ -54,7 +54,7 @@ Android Studio > Tools > AVD manager 에서 Virtual Device 설치
 
 License Agreement
 ````
-PS > %ANDROID_HOM%\Android\Sdk\tools\bin\sdkmanager.bat --licenses
+PS > %ANDROID_HOME%\Android\Sdk\tools\bin\sdkmanager.bat --licenses
 ````
 
 프로젝트 생성

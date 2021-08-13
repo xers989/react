@@ -1,11 +1,10 @@
 # react hello world
 
-
 #### project 생성
 프로젝트 생성
 ````
 > npx react-native init hello_world --template react-native-template-typescript
-```
+````
 프로젝트 시간이 몇분 걸림
 <img src="/images/hello-world.PNG" width="70%" height="70%">  
 

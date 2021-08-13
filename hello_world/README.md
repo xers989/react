@@ -3,10 +3,11 @@
 #### project 생성
 프로젝트 생성
 ````
-> npx react-native init hello_world --template react-native-template-typescript
+PS > npx react-native init hello_world --template react-native-template-typescript
 ````
-프로젝트 시간이 몇분 걸림
+프로젝트 시간이 몇분 걸림     
 <img src="/images/hello-world.PNG" width="70%" height="70%">  
+
 
 #### App.tsx 변경
 생성된 초기 페이지를 변경 하여줌
@@ -26,4 +27,4 @@
 > cd .\hello_world\
 hello_world> npm run android
 ````
-<img src="/images/hello_world/luancher.PNG" width="70%" height="70%">  
+<img src="/images/hello_world/luancher.PNG" width="50%" height="50%">  

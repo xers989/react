@@ -15,10 +15,10 @@ PS C:\Windows\system32>
 ````
 
 환경변수 추가
-<img src="/images/envset01.png" width="70%" height="70%">  
+<img src="/images/envset01.PNG" width="70%" height="70%">  
 
 ````
- C:\cloudwork> iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
+PS > iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
 Initializing...
 Downloading scoop...
 Extracting...
@@ -33,32 +33,34 @@ Type 'scoop help' for instructions.
 
 scoop 폴더에 설치가 완료됨 (apps, buckets, shims 폴더 생성)
 
-npm i -g typescript ts-node
+```
+PS > npm i -g typescript ts-node
+```
 
-
-Android-studio  설치
+Android-studio  설치   
+Android-Studio 사이트에서 다운로드 설치   
 
 Java Runtime 설치
 
-JAVA_HOME 설정
-<img src="/images/envset02.png" width="70%" height="70%">  
+JAVA_HOME 설정    
+<img src="/images/envset02.PNG" width="70%" height="70%">  
 
-ADNROID_HOME 설정
-<img src="/images/android-studio.PNG" width="70%" height="70%">  
+ADNROID_HOME 설정    
+<img src="/images/android-studio.PNG" width="80%" height="80%">  
 
-Android Studio > Tools > AVD manager 에서 Virtual Device 설치
-<img src="/images/android-studio2.PNG" width="70%" height="70%">  
+Android Studio > Tools > AVD manager 에서 Virtual Device 설치    
+<img src="/images/android-studio2.PNG" width="90%" height="90%">  
 
 
 License Agreement
 ````
-> C:\Users\xers1\AppData\Local\Android\Sdk\tools\bin\sdkmanager.bat --licenses
+PS > %ANDROID_HOM%\Android\Sdk\tools\bin\sdkmanager.bat --licenses
 ````
 
 프로젝트 생성
 ````
-> npx react-native init project_name --template react-native-template-typescript
-```
-프로젝트 시간이 몇분 걸림
+PS > npx react-native init project_name --template react-native-template-typescript
+````
+프로젝트 시간이 몇분 걸림    
 <img src="/images/hello-world.PNG" width="70%" height="70%">  
 

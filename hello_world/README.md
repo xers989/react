@@ -11,6 +11,7 @@ PS > npx react-native init hello_world --template react-native-template-typescri
 
 #### App.tsx 변경
 생성된 초기 페이지를 변경 하여줌
+/App.tsx 파일을 다음과 같이 변경 하여줌   
 ````
  import React from 'react';
  import {Text} from 'react-native';

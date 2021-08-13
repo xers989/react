@@ -14,7 +14,7 @@ C:\Windows\system32> Set-ExecutionPolicy RemoteSigned -scope CurrentUser
 PS C:\Windows\system32>
 ````
 
-환경변수 추가
+환경변수 추가    
 <img src="/images/envset01.PNG" width="70%" height="70%">  
 
 ````
@@ -33,6 +33,7 @@ Type 'scoop help' for instructions.
 
 scoop 폴더에 설치가 완료됨 (apps, buckets, shims 폴더 생성)
 
+Javascript 툴 설치 (typescript)   
 ```
 PS > npm i -g typescript ts-node
 ```

@@ -24,7 +24,7 @@ PS > npx react-native init hello_world --template react-native-template-typescri
 #### Running Android
 안드로이드 시작
 ````
-> cd .\hello_world\
+PS > cd .\hello_world\
 hello_world> npm run android
 ````
-<img src="/images/hello_world/luancher.PNG" width="50%" height="50%">  
+<img src="/images/hello_world/luancher.PNG" width="30%" height="30%">  

@@ -89,3 +89,11 @@ border: {borderWidth: 10, borderColor: color('black').apple(0.3).string()},
 viewtext: {fontSize: 14, color: 'black'},
 ````
 <img src="/images/resourceproject/screen02.png" width="20%" height="20%">   
+
+
+
+#### Platform 선택
+iOS, android 에 따라 선택적으로 데이터 등을 입력 하기 위해서는 Platfrom.select(ios: XX , android: XX)을 한다.    
+````
+paddingLeft: Platform.select({ios:0, android:20})
+````

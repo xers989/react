@@ -61,7 +61,7 @@ const {width, height} = Dimensions.get('window');
    }
  )
 ````
-<img src="/images/resourceproject/screen01.png" width="40%" height="40%">   
+<img src="/images/resourceproject/screen01.png" width="20%" height="20%">   
 
 
 #### Margin, Padding  & View
@@ -88,4 +88,4 @@ box: {height: 100, backgroundColor: Colors.lime500, marginBottom: 10},
 border: {borderWidth: 10, borderColor: color('black').apple(0.3).string()},
 viewtext: {fontSize: 14, color: 'black'},
 ````
-<img src="/images/resourceproject/screen02.png" width="40%" height="40%">   
+<img src="/images/resourceproject/screen02.png" width="20%" height="20%">   

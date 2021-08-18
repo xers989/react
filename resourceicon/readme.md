@@ -102,7 +102,7 @@ fonts style 정의
 
 </Icon>
 </ImageBackground>
-````
+`````
 Home 이라는 아이콘이 추가 되며 클릭시 onPress 에 의해 Alert 화면이 보여 진다.
 
 <img src="/images/resourceicon/screen01.png" width="20%" height="20%">  

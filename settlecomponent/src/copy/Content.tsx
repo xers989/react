@@ -1,31 +1,24 @@
 import React from 'react';
-import { StyleSheet, View, Text } from 'react-native';
+import { StyleSheet, View, Text , Image, ScrollView} from 'react-native';
 import { Colors } from 'react-native-paper';
 import * as D from '../data';
 
-const title = "Content";
-
+const avatars = D.makeArray(200).map((notUsed) => D.randomAvatarUrl())
 export default function Content() {
-    return (
-        <View style={[styles.view]}>
-            <Text style={[styles.text]}>{title}</Text>
-            <View style={[styles.viewred]}>
-                <Text>flex: 0</Text>
-            </View>
-            <View style={[styles.viewgreen]}>
-                <Text>flex: 1</Text>
-            </View>
-            <View style={[styles.viewpurple]}>
-                <Text>flex: 2</Text>
-            </View>
+    const children = avatars.map ((avatarUrl, index) => (
+        <View key={index.toString()} style = {styles.avatarView}>
+            <Image style={styles.avatar} source={{uri:avatarUrl}} />
         </View>
+    ))
+    return (
+        <ScrollView contentContainerStyle = {[styles.view]}>{children}</ScrollView>
     )
 }
 
 const styles = StyleSheet.create({
-    view: {flex: 1, padding: 5, backgroundColor: Colors.blue900},
+    view: {flexWrap: 'wrap', flexDirection: 'row', justifyContent:'center',  padding: 5},
     text: {fontSize: 20, color: 'white'},
-    viewred: {flex:0, backgroundColor: Colors.red500},
-    viewgreen: {flex:1, backgroundColor: Colors.green500},
+    avatarView: {padding: 3},
+    avatar: {width: 50, height:50,flex:1, backgroundColor: Colors.green500},
     viewpurple: {flex:2, backgroundColor: Colors.purple500},
 })

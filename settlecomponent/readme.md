@@ -58,7 +58,7 @@ centerView: {flex:1}
 `````
 view 에 flexDirection을 row 로 하면 가로 방향으로 하위 컴포넌트가 배치 된다.
 (image, view, icon 이 가로로 배치됨)
-alignItem 은 left, center, right, stretch 가 가능하다.
+alignItem 은 left, center, right, stretch 가 가능하다.    
 <img src="/images/settlecomponent/screen02.png" width="20%" height="20%"> 
 
 #### justifyContent
@@ -114,4 +114,4 @@ return (
   }
 `````
 버튼의 배치는 절대 위치로 하여 주면 다음 처럼 해당 위치에 버튼이 보여 진다.    
-<img src="/images/settlecomponent/screen034png" width="20%" height="20%"> 
+<img src="/images/settlecomponent/screen04.png" width="20%" height="20%"> 
